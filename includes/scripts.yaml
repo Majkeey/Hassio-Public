@@ -1,0 +1,48 @@
+# gateway_on_script:
+  # sequence:
+    # - service: input_text.set_value
+      # data_template:
+        # entity_id: input_text.gateway_light_gateway_hs_color
+        # value: '{{ states.light.gateway_light_gateway.attributes.hs_color }}'
+    # - service: input_number.set_value
+      # data_template:
+        # entity_id: input_number.gateway_light_gateway_brightness
+        # value: '{{ states.light.gateway_light_gateway.attributes.brightness }}'
+    # - service: light.turn_on
+      # entity_id: light.gateway_light_gateway
+      # data:
+        # brightness: 255
+        # hs_color: [0, 100]
+
+# gateway_off_script:
+  # sequence:
+    # - service: light.turn_on
+      # entity_id: light.gateway_light_gateway
+      # data_template:
+        # brightness: "{{ states('input_number.gateway_light_gateway_brightness') | int }}" 
+        # hs_color: [0, 0]
+    # - service: input_number.set_value
+      # data:
+        # entity_id: input_number.gateway_light_gateway_brightness
+        # value: 0
+
+#KODI
+kodi_on:
+  sequence:
+    - service: media_player.kodi_call_method
+      data:
+        entity_id: media_player.kodi
+        method: System.Reboot
+
+kodi_off:
+  sequence:
+    - service: media_player.media_stop
+      data:
+        entity_id: media_player.kodi
+    - service: media_player.kodi_call_method
+      data:
+        entity_id: media_player.kodi
+        method: Addons.ExecuteAddon
+        addonid: script.json-cec
+        params:
+          command: standby

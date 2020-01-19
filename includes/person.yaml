@@ -1,0 +1,12 @@
+- name: Majko
+  id: majko01
+  user_id: ed8d80804a5d4282be5431c90f0fcf3f
+  device_trackers:
+    - device_tracker.life360_majkeey
+    - device_tracker.majko
+- name: Baska
+  id: baska01
+  user_id: b4914b4d79d548b4adff38af91d4da74
+  device_trackers:
+    - device_tracker.baska
+    - device_tracker.life360_baska

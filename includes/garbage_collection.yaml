@@ -1,0 +1,124 @@
+sensors:
+#WASTE
+  - name: Waste General
+    frequency: "weekly"
+    collection_days:
+    - thu
+    exclude_dates:
+    - '2020-12-24'
+    verbose_state: True
+    verbose_format: "on {date}\n(in {days} days)"
+  - name: Waste Plastic
+    frequency: "monthly"
+    collection_days: "wed"
+    weekday_order_number: 
+    - 1
+    verbose_state: True
+    verbose_format: "on {date}\n(in {days} days)"
+  - name: Waste Paper
+    frequency: "monthly"
+    collection_days: "wed"
+    weekday_order_number: 
+    - 2
+    exclude_dates:
+    - '2020-02-12'
+    - '2020-07-08'
+    - '2020-09-09'
+    - '2020-11-11'
+    verbose_state: True
+    verbose_format: "on {date}\n(in {days} days)"    
+  - name: Waste Glass
+    frequency: "monthly"
+    collection_days: "wed"
+    weekday_order_number: 
+    - 3
+    exclude_dates:
+    - '2020-02-19'
+    - '2020-07-15'
+    - '2020-09-16'
+    - '2020-11-18'
+    verbose_state: True
+    verbose_format: "on {date}\n(in {days} days)"
+    
+#BDAYS / NAMESDAYS
+  - name: Birthday Baska
+    frequency: "annual"
+    date: '5/28'
+    icon_normal: mdi:cake-variant
+    icon_today: mdi:cake-variant
+    icon_tomorrow: mdi:cake-variant
+    verbose_state: True
+    verbose_format: "on {date}\n(in {days} days)"    
+  - name: Birthday Majko
+    frequency: "annual"
+    date: '7/25'
+    icon_normal: mdi:cake-variant
+    icon_today: mdi:cake-variant
+    icon_tomorrow: mdi:cake-variant
+    verbose_state: True
+    verbose_format: "on {date}\n(in {days} days)"    
+  - name: Namesday Baska
+    frequency: "annual"
+    date: '12/4'
+    icon_normal: mdi:cake-variant
+    icon_today: mdi:cake-variant
+    icon_tomorrow: mdi:cake-variant
+    verbose_state: True
+    verbose_format: "on {date}\n(in {days} days)"    
+  - name: Namesday Majko
+    frequency: "annual"
+    date: '3/25'
+    icon_normal: mdi:cake-variant
+    icon_today: mdi:cake-variant
+    icon_tomorrow: mdi:cake-variant
+    verbose_state: True
+    verbose_format: "on {date}\n(in {days} days)"    
+  - name: Birthday Aisha
+    frequency: "annual"
+    date: '5/5'
+    icon_normal: mdi:cake-variant
+    icon_today: mdi:cake-variant
+    icon_tomorrow: mdi:cake-variant
+    verbose_state: True
+    verbose_format: "on {date}\n(in {days} days)"    
+  - name: Birthday Scotty
+    frequency: "annual"
+    date: '4/14'
+    icon_normal: mdi:cake-variant
+    icon_today: mdi:cake-variant
+    icon_tomorrow: mdi:cake-variant
+    verbose_state: True
+    verbose_format: "on {date}\n(in {days} days)"
+
+  - name: Birthday Kizik
+    frequency: "annual"
+    date: '2/4'
+    icon_normal: mdi:cake-variant
+    icon_today: mdi:cake-variant
+    icon_tomorrow: mdi:cake-variant
+    verbose_state: True
+    verbose_format: "on {date}\n(in {days} days)"
+  - name: Birthday Sony
+    frequency: "annual"
+    date: '1/31'
+    icon_normal: mdi:cake-variant
+    icon_today: mdi:cake-variant
+    icon_tomorrow: mdi:cake-variant
+    verbose_state: True
+    verbose_format: "on {date}\n(in {days} days)"
+  - name: Birthday JR
+    frequency: "annual"
+    date: '6/12'
+    icon_normal: mdi:cake-variant
+    icon_today: mdi:cake-variant
+    icon_tomorrow: mdi:cake-variant
+    verbose_state: True
+    verbose_format: "on {date}\n(in {days} days)"    
+  - name: Birthday Schied
+    frequency: "annual"
+    date: '6/30'
+    icon_normal: mdi:cake-variant
+    icon_today: mdi:cake-variant
+    icon_tomorrow: mdi:cake-variant
+    verbose_state: True
+    verbose_format: "on {date}\n(in {days} days)"

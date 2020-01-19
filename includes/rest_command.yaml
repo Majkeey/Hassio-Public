@@ -1,0 +1,109 @@
+#MAJKEEY - DOORBELL
+autoremote_doorbell_majkeey:
+  url: 'https://autoremotejoaomgcd.appspot.com/sendmessage?key=fT4hJyWV-Nw:APA91bGeZ-syQ19Zahm4r7fML5CVqdRi8bi5q3z9-sBJoRtffkq_xT9UGy07luNpELnInd3fW1jsdeynhwp_maHtuLmoOxDMzXHtu7lq0Tg3nr8Yc76qTSEzhs_M6V1S04OZZKeouJ-g&message=doorbell&target=Majkeey-Phone'
+
+#MAJKEEY - ALARM
+autoremote_alarm_majkeey:
+  url: 'https://autoremotejoaomgcd.appspot.com/sendmessage?key=fT4hJyWV-Nw:APA91bGeZ-syQ19Zahm4r7fML5CVqdRi8bi5q3z9-sBJoRtffkq_xT9UGy07luNpELnInd3fW1jsdeynhwp_maHtuLmoOxDMzXHtu7lq0Tg3nr8Yc76qTSEzhs_M6V1S04OZZKeouJ-g&message=alarm&target=Majkeey-Phone'
+
+#MAJKEEY - WINDOWS
+autoremote_bath_w_majkeey:
+  url: 'https://autoremotejoaomgcd.appspot.com/sendmessage?key=fT4hJyWV-Nw:APA91bGeZ-syQ19Zahm4r7fML5CVqdRi8bi5q3z9-sBJoRtffkq_xT9UGy07luNpELnInd3fW1jsdeynhwp_maHtuLmoOxDMzXHtu7lq0Tg3nr8Yc76qTSEzhs_M6V1S04OZZKeouJ-g&message=bath_w&target=Majkeey-Phone'
+
+autoremote_liv_w_majkeey:
+  url: 'https://autoremotejoaomgcd.appspot.com/sendmessage?key=fT4hJyWV-Nw:APA91bGeZ-syQ19Zahm4r7fML5CVqdRi8bi5q3z9-sBJoRtffkq_xT9UGy07luNpELnInd3fW1jsdeynhwp_maHtuLmoOxDMzXHtu7lq0Tg3nr8Yc76qTSEzhs_M6V1S04OZZKeouJ-g&message=liv_w&target=Majkeey-Phone'
+
+autoremote_ent_w_majkeey:
+  url: 'https://autoremotejoaomgcd.appspot.com/sendmessage?key=fT4hJyWV-Nw:APA91bGeZ-syQ19Zahm4r7fML5CVqdRi8bi5q3z9-sBJoRtffkq_xT9UGy07luNpELnInd3fW1jsdeynhwp_maHtuLmoOxDMzXHtu7lq0Tg3nr8Yc76qTSEzhs_M6V1S04OZZKeouJ-g&message=ent_w&target=Majkeey-Phone'
+
+autoremote_pan_w_majkeey:
+  url: 'https://autoremotejoaomgcd.appspot.com/sendmessage?key=fT4hJyWV-Nw:APA91bGeZ-syQ19Zahm4r7fML5CVqdRi8bi5q3z9-sBJoRtffkq_xT9UGy07luNpELnInd3fW1jsdeynhwp_maHtuLmoOxDMzXHtu7lq0Tg3nr8Yc76qTSEzhs_M6V1S04OZZKeouJ-g&message=pan_w&target=Majkeey-Phone'
+
+autoremote_ki1_w_majkeey:
+  url: 'https://autoremotejoaomgcd.appspot.com/sendmessage?key=fT4hJyWV-Nw:APA91bGeZ-syQ19Zahm4r7fML5CVqdRi8bi5q3z9-sBJoRtffkq_xT9UGy07luNpELnInd3fW1jsdeynhwp_maHtuLmoOxDMzXHtu7lq0Tg3nr8Yc76qTSEzhs_M6V1S04OZZKeouJ-g&message=ki1_w&target=Majkeey-Phone'
+
+autoremote_ki2_w_majkeey:
+  url: 'https://autoremotejoaomgcd.appspot.com/sendmessage?key=fT4hJyWV-Nw:APA91bGeZ-syQ19Zahm4r7fML5CVqdRi8bi5q3z9-sBJoRtffkq_xT9UGy07luNpELnInd3fW1jsdeynhwp_maHtuLmoOxDMzXHtu7lq0Tg3nr8Yc76qTSEzhs_M6V1S04OZZKeouJ-g&message=ki2_w&target=Majkeey-Phone'
+
+autoremote_be1_w_majkeey:
+  url: 'https://autoremotejoaomgcd.appspot.com/sendmessage?key=fT4hJyWV-Nw:APA91bGeZ-syQ19Zahm4r7fML5CVqdRi8bi5q3z9-sBJoRtffkq_xT9UGy07luNpELnInd3fW1jsdeynhwp_maHtuLmoOxDMzXHtu7lq0Tg3nr8Yc76qTSEzhs_M6V1S04OZZKeouJ-g&message=be1_w&target=Majkeey-Phone'
+
+autoremote_be2_w_majkeey:
+  url: 'https://autoremotejoaomgcd.appspot.com/sendmessage?key=fT4hJyWV-Nw:APA91bGeZ-syQ19Zahm4r7fML5CVqdRi8bi5q3z9-sBJoRtffkq_xT9UGy07luNpELnInd3fW1jsdeynhwp_maHtuLmoOxDMzXHtu7lq0Tg3nr8Yc76qTSEzhs_M6V1S04OZZKeouJ-g&message=be2_w&target=Majkeey-Phone'
+
+autoremote_off_w_majkeey:
+  url: 'https://autoremotejoaomgcd.appspot.com/sendmessage?key=fT4hJyWV-Nw:APA91bGeZ-syQ19Zahm4r7fML5CVqdRi8bi5q3z9-sBJoRtffkq_xT9UGy07luNpELnInd3fW1jsdeynhwp_maHtuLmoOxDMzXHtu7lq0Tg3nr8Yc76qTSEzhs_M6V1S04OZZKeouJ-g&message=off_w&target=Majkeey-Phone'
+
+autoremote_gue_w_majkeey:
+  url: 'https://autoremotejoaomgcd.appspot.com/sendmessage?key=fT4hJyWV-Nw:APA91bGeZ-syQ19Zahm4r7fML5CVqdRi8bi5q3z9-sBJoRtffkq_xT9UGy07luNpELnInd3fW1jsdeynhwp_maHtuLmoOxDMzXHtu7lq0Tg3nr8Yc76qTSEzhs_M6V1S04OZZKeouJ-g&message=gue_w&target=Majkeey-Phone'
+
+autoremote_tec_w_majkeey:
+  url: 'https://autoremotejoaomgcd.appspot.com/sendmessage?key=fT4hJyWV-Nw:APA91bGeZ-syQ19Zahm4r7fML5CVqdRi8bi5q3z9-sBJoRtffkq_xT9UGy07luNpELnInd3fW1jsdeynhwp_maHtuLmoOxDMzXHtu7lq0Tg3nr8Yc76qTSEzhs_M6V1S04OZZKeouJ-g&message=tec_w&target=Majkeey-Phone'
+
+#BASKA - DOORBELL
+autoremote_doorbell_baska:
+  url: 'https://autoremotejoaomgcd.appspot.com/sendmessage?key=fpDCjcdr23s:APA91bF2C_U9DirON9qYlpvAfcnl7H6Zg50EVnzjTUrf4xeSJ9923jgGGVDcpqRBfF_iUUOmL73lerr7JMIpS3pEkt553RojnRQeKq4e5I7R5A6RudTjF2RAgXYL0C3ymgtXYIGyM4yS&message=doorbell&target=Baska-Phone'
+
+#BASKA - ALARM
+autoremote_alarm_baska:
+  url: 'https://autoremotejoaomgcd.appspot.com/sendmessage?key=fpDCjcdr23s:APA91bF2C_U9DirON9qYlpvAfcnl7H6Zg50EVnzjTUrf4xeSJ9923jgGGVDcpqRBfF_iUUOmL73lerr7JMIpS3pEkt553RojnRQeKq4e5I7R5A6RudTjF2RAgXYL0C3ymgtXYIGyM4yS&message=alarm&target=Baska-Phone'
+
+#BASKA - WINDOWS
+autoremote_bath_w_baska:
+  url: 'https://autoremotejoaomgcd.appspot.com/sendmessage?key=fpDCjcdr23s:APA91bF2C_U9DirON9qYlpvAfcnl7H6Zg50EVnzjTUrf4xeSJ9923jgGGVDcpqRBfF_iUUOmL73lerr7JMIpS3pEkt553RojnRQeKq4e5I7R5A6RudTjF2RAgXYL0C3ymgtXYIGyM4yS&message=bath_w&target=Baska-Phone'
+
+autoremote_liv_w_baska:
+  url: 'https://autoremotejoaomgcd.appspot.com/sendmessage?key=fpDCjcdr23s:APA91bF2C_U9DirON9qYlpvAfcnl7H6Zg50EVnzjTUrf4xeSJ9923jgGGVDcpqRBfF_iUUOmL73lerr7JMIpS3pEkt553RojnRQeKq4e5I7R5A6RudTjF2RAgXYL0C3ymgtXYIGyM4yS&message=liv_w&target=Baska-Phone'
+
+autoremote_ent_w_baska:
+  url: 'https://autoremotejoaomgcd.appspot.com/sendmessage?key=fpDCjcdr23s:APA91bF2C_U9DirON9qYlpvAfcnl7H6Zg50EVnzjTUrf4xeSJ9923jgGGVDcpqRBfF_iUUOmL73lerr7JMIpS3pEkt553RojnRQeKq4e5I7R5A6RudTjF2RAgXYL0C3ymgtXYIGyM4yS&message=ent_w&target=Baska-Phone'
+
+autoremote_pan_w_baska:
+  url: 'https://autoremotejoaomgcd.appspot.com/sendmessage?key=fpDCjcdr23s:APA91bF2C_U9DirON9qYlpvAfcnl7H6Zg50EVnzjTUrf4xeSJ9923jgGGVDcpqRBfF_iUUOmL73lerr7JMIpS3pEkt553RojnRQeKq4e5I7R5A6RudTjF2RAgXYL0C3ymgtXYIGyM4yS&message=pan_w&target=Baska-Phone'
+
+autoremote_ki1_w_baska:
+  url: 'https://autoremotejoaomgcd.appspot.com/sendmessage?key=fpDCjcdr23s:APA91bF2C_U9DirON9qYlpvAfcnl7H6Zg50EVnzjTUrf4xeSJ9923jgGGVDcpqRBfF_iUUOmL73lerr7JMIpS3pEkt553RojnRQeKq4e5I7R5A6RudTjF2RAgXYL0C3ymgtXYIGyM4yS&message=ki1_w&target=Baska-Phone'
+
+autoremote_ki2_w_baska:
+  url: 'https://autoremotejoaomgcd.appspot.com/sendmessage?key=fpDCjcdr23s:APA91bF2C_U9DirON9qYlpvAfcnl7H6Zg50EVnzjTUrf4xeSJ9923jgGGVDcpqRBfF_iUUOmL73lerr7JMIpS3pEkt553RojnRQeKq4e5I7R5A6RudTjF2RAgXYL0C3ymgtXYIGyM4yS&message=ki2_w&target=Baska-Phone'
+
+autoremote_be1_w_baska:
+  url: 'https://autoremotejoaomgcd.appspot.com/sendmessage?key=fpDCjcdr23s:APA91bF2C_U9DirON9qYlpvAfcnl7H6Zg50EVnzjTUrf4xeSJ9923jgGGVDcpqRBfF_iUUOmL73lerr7JMIpS3pEkt553RojnRQeKq4e5I7R5A6RudTjF2RAgXYL0C3ymgtXYIGyM4yS&message=be1_w&target=Baska-Phone'
+
+autoremote_be2_w_baska:
+  url: 'https://autoremotejoaomgcd.appspot.com/sendmessage?key=fpDCjcdr23s:APA91bF2C_U9DirON9qYlpvAfcnl7H6Zg50EVnzjTUrf4xeSJ9923jgGGVDcpqRBfF_iUUOmL73lerr7JMIpS3pEkt553RojnRQeKq4e5I7R5A6RudTjF2RAgXYL0C3ymgtXYIGyM4yS&message=be2_w&target=Baska-Phone'
+
+autoremote_off_w_baska:
+  url: 'https://autoremotejoaomgcd.appspot.com/sendmessage?key=fpDCjcdr23s:APA91bF2C_U9DirON9qYlpvAfcnl7H6Zg50EVnzjTUrf4xeSJ9923jgGGVDcpqRBfF_iUUOmL73lerr7JMIpS3pEkt553RojnRQeKq4e5I7R5A6RudTjF2RAgXYL0C3ymgtXYIGyM4yS&message=off_w&target=Baska-Phone'
+
+autoremote_gue_w_baska:
+  url: 'https://autoremotejoaomgcd.appspot.com/sendmessage?key=fpDCjcdr23s:APA91bF2C_U9DirON9qYlpvAfcnl7H6Zg50EVnzjTUrf4xeSJ9923jgGGVDcpqRBfF_iUUOmL73lerr7JMIpS3pEkt553RojnRQeKq4e5I7R5A6RudTjF2RAgXYL0C3ymgtXYIGyM4yS&message=gue_w&target=Baska-Phone'
+
+autoremote_tec_w_baska:
+  url: 'https://autoremotejoaomgcd.appspot.com/sendmessage?key=fpDCjcdr23s:APA91bF2C_U9DirON9qYlpvAfcnl7H6Zg50EVnzjTUrf4xeSJ9923jgGGVDcpqRBfF_iUUOmL73lerr7JMIpS3pEkt553RojnRQeKq4e5I7R5A6RudTjF2RAgXYL0C3ymgtXYIGyM4yS&message=tec_w&target=Baska-Phone'
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

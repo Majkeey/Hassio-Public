@@ -1,0 +1,237 @@
+#WALL SWITCHES
+switch.wall_switch_bathroommain:
+  friendly_name: Light - Bathroom Main
+  icon: mdi:lightbulb-outline
+switch.wall_switch_left_officeleft:
+  friendly_name: Light - Office Left
+  icon: mdi:lightbulb-outline
+switch.wall_switch_right_officeright:
+  friendly_name: Light - Office Right
+  icon: mdi:lightbulb-outline
+switch.wall_switch_left_guestroomleft:
+  friendly_name: Light - Guestroom Left
+  icon: mdi:lightbulb-outline
+switch.wall_switch_right_guestroomright:
+  friendly_name: Light - Guestroom Right
+  icon: mdi:lightbulb-outline
+switch.wall_switch_techroom:
+  friendly_name: Light - Techroom
+  icon: mdi:lightbulb-outline
+switch.wall_switch_wc:
+  friendly_name: Light - WC
+  icon: mdi:lightbulb-outline
+switch.wall_switch_left_bedroomleft:
+  friendly_name: Light - Bedroom Left
+  icon: mdi:lightbulb-outline
+switch.wall_switch_right_bedroomright:
+  friendly_name: Light - Bedroom Right
+  icon: mdi:lightbulb-outline
+switch.wall_switch_right_pantry:
+  friendly_name: Light - Pantry
+  icon: mdi:lightbulb-outline
+switch.wall_switch_left_kitchentop:
+  friendly_name: Light - Pantry
+  icon: mdi:lightbulb-outline
+switch.wall_switch_right_garden:
+  friendly_name: Light - Garden
+  icon: mdi:lightbulb-outline
+
+#UNKNOWN WALL SWITCHES
+switch.wall_switch_left_gardenunknown:
+  friendly_name: Light - Gardenunknown
+  icon: mdi:lightbulb-outline
+
+  
+#GATEWAY LIGHTS
+light.gateway_light_gateway:
+  friendly_name: Gateway Light
+  icon: mdi:lightbulb-outline
+light.gateway_light_gateway2:
+  friendly_name: Gateway2 Light
+  icon: mdi:lightbulb-outline
+  
+#YEELIGHTS
+light.yeelight_color1_7811dc6815ae:
+  friendly_name: Light - Living Room
+  icon: mdi:lightbulb-outline
+light.yeelight_color1_34ce008baff3:
+  friendly_name: Light - Office
+  icon: mdi:lightbulb-outline
+light.yeelight_color1_7811dc68270d:
+  friendly_name: Light - Bedroom
+  icon: mdi:lightbulb-outline
+light.yeelight_color1_34ce00900f3e:
+  friendly_name: Light - Guest Room
+  icon: mdi:lightbulb-outline
+light.yeelight_color1_7c49eb12c687:
+  friendly_name: Light - Outside
+  icon: mdi:lightbulb-outline
+
+
+#DOOR & WINDOW SENSORS
+binary_sensor.door_window_sensor_office:
+  friendly_name: Window - Office
+  icon: mdi:window-maximize
+binary_sensor.door_window_sensor_bathroom:
+  friendly_name: Window - Bathroom
+  icon: mdi:window-maximize
+binary_sensor.door_window_sensor_livingroom:
+  friendly_name: Door - Living Room
+  icon: mdi:door
+binary_sensor.door_window_sensor_kitchen1:
+  friendly_name: Window - Kitchen 1
+  icon: mdi:window-maximize
+binary_sensor.door_window_sensor_kitchen2:
+  friendly_name: Window - Kitchen 2
+  icon: mdi:window-maximize
+binary_sensor.door_window_sensor_guestroom:
+  friendly_name: Window - Guest Room
+  icon: mdi:window-maximize
+binary_sensor.door_window_sensor_entry:
+  friendly_name: Door - Entry
+  icon: mdi:door
+binary_sensor.door_window_sensor_techroom:
+  friendly_name: Window - Tech Room
+  icon: mdi:window-maximize
+binary_sensor.door_window_sensor_bedroom1:
+  friendly_name: Window - Bedroom 1
+  icon: mdi:window-maximize
+binary_sensor.door_window_sensor_bedroom2:
+  friendly_name: Window - Bedroom 2
+  icon: mdi:window-maximize
+binary_sensor.door_window_sensor_pantry:
+  friendly_name: Window - Pantry
+  icon: mdi:window-maximize
+
+#TEMPERATURE SENSORS
+sensor.temperature_bedroom:
+  friendly_name: Temp - Bedroom
+  icon: mdi:temperature-celsius
+sensor.temperature_livingroom:
+  friendly_name: Temp - Living Room
+  icon: mdi:temperature-celsius
+sensor.temperature_guestroom:
+  friendly_name: Temp - Guest Room
+  icon: mdi:temperature-celsius
+sensor.temperature_office:
+  friendly_name: Temp - Office
+  icon: mdi:temperature-celsius
+sensor.temperature_techroom:
+  friendly_name: Temp - Tech Room
+  icon: mdi:temperature-celsius
+sensor.temperature_bathroom:
+  friendly_name: Temp - Bathroom
+  icon: mdi:temperature-celsius
+  
+#HUMIDITY SENSORS
+sensor.humidity_guestroom:
+  friendly_name: Humidity - Guest Room
+  icon: mdi:water-percent
+sensor.humidity_bedroom:
+  friendly_name: Humidity - Bedroom
+  icon: mdi:water-percent
+sensor.humidity_livingroom:
+  friendly_name: Humidity - Living Room
+  icon: mdi:water-percent
+sensor.humidity_office:
+  friendly_name: Humidity - Office
+  icon: mdi:water-percent
+sensor.humidity_techroom:
+  friendly_name: Humidity - Tech Room
+  icon: mdi:water-percent
+sensor.humidity_bathroom:
+  friendly_name: Humidity - Bathroom
+  icon: mdi:water-percent
+
+#WEATHER SENSORS
+sensor.weather_cloudiness:
+  friendly_name: Cloudiness
+  icon: mdi:weather-cloudy
+sensor.weather_fog:
+  friendly_name: Fog
+  icon: mdi:weather-fog
+sensor.weather_humidity:
+  friendly_name: Humidity
+  icon: mdi:water-percent
+sensor.weather_precipitation:
+  friendly_name: Precipitation
+sensor.weather_pressure:
+  friendly_name: Pressure
+  icon: mdi:thermometer
+sensor.weather_symbol:
+  friendly_name: Symbol
+sensor.weather_temperature:
+  friendly_name: Temperature
+  icon: mdi:temperature-celsius
+sensor.weather_wind_direction:
+  friendly_name: Wind Direction
+  icon: mdi:weather-windy
+sensor.weather_wind_speed:
+  friendly_name: Wind Speed
+  icon: mdi:weather-windy
+sensor.yr_symbol:
+  friendly_name: Forecast
+  
+#ILLUMINATION SENSORS
+sensor.illumination_gateway:
+  friendly_name: Gateway Illumination Sensor
+  icon: mdi:ceiling-light
+sensor.illumination_gateway2:
+  friendly_name: Gateway2 Illumination Sensor  
+  icon: mdi:ceiling-light
+sensor.illumination_outside:
+  friendly_name: Outside Illumination Sensor
+  icon: mdi:ceiling-light
+sensor.illumination_bathroom:
+  friendly_name: Bathroom Illumination Sensor
+  icon: mdi:ceiling-light
+sensor.illumination_garden:
+  friendly_name: Garden Illumination Sensor
+  icon: mdi:ceiling-light
+sensor.illumination_wc:
+  friendly_name: WC Illumination Sensor
+  icon: mdi:ceiling-light  
+  
+#MOTION SENSORS
+binary_sensor.motion_sensor_bathroom:
+  friendly_name: Bathroom Motion
+  icon: mdi:run
+binary_sensor.motion_sensor_outside:
+  friendly_name: Outside Motion
+  icon: mdi:run
+binary_sensor.motion_sensor_garden:
+  friendly_name: Garden Motion
+  icon: mdi:run
+binary_sensor.motion_sensor_wc:
+  friendly_name: WC Motion
+  icon: mdi:run
+  
+#WIRELESS SWITCHES
+binary_sensor.switch_majkeeylights:
+  friendly_name: Switch - Majkeey Bedroom
+binary_sensor.switch_baskalights:
+  friendly_name: Switch - Baska Bedroom
+binary_sensor.switch_livingroom:
+  friendly_name: Switch - Living Room
+binary_sensor.switch_majkeeypc:
+  friendly_name: Switch - Majkeey PC
+binary_sensor.switch_doorbell:
+  friendly_name: Doorbell
+  icon: mdi:bell
+  
+#DEVICES
+switch.pc_baska:
+  icon: mdi:desktop-tower
+switch.pc_majkeey:
+  icon: mdi:desktop-tower
+binary_sensor.tv:
+  icon: mdi:television-box
+media_player.samsung_led48_ue48j5248:
+  friendly_name: SamsungTV
+  icon: mdi:television-box
+  
+#PERSON
+person.majko:
+  entity_picture: "/local/pictures/majko.jpg"
+person.baska:
+  entity_picture: "/local/pictures/baska.jpg"

@@ -1,0 +1,50 @@
+switchez:
+  name: Switchez
+  view: no
+  entities:
+    - switch.wall_switch_bathroommain
+    - switch.wall_switch_left_bedroomleft
+    - switch.wall_switch_left_guestroomleft
+    - switch.wall_switch_left_officeleft
+    - switch.wall_switch_right_bedroomright
+    - switch.wall_switch_right_garden
+    - switch.wall_switch_right_guestroomright
+    - switch.wall_switch_right_officeright
+    - switch.wall_switch_right_pantry
+    - switch.wall_switch_techroom
+    - switch.wall_switch_wc
+    - light.gateway_light_gateway
+    - light.gateway_light_gateway2
+    - light.yeelight_color1_7811dc6815ae
+
+windows:
+  name: Windows
+  view: no
+  entities:
+    - binary_sensor.door_window_sensor_guestroom
+    - binary_sensor.door_window_sensor_kitchen1
+    - binary_sensor.door_window_sensor_office
+    - binary_sensor.door_window_sensor_entry
+    - binary_sensor.door_window_sensor_kitchen2
+    - binary_sensor.door_window_sensor_bathroom
+    - binary_sensor.door_window_sensor_livingroom
+    - binary_sensor.door_window_sensor_techroom
+    - binary_sensor.door_window_sensor_bedroom1
+    - binary_sensor.door_window_sensor_bedroom2
+    - binary_sensor.door_window_sensor_pantry
+
+life360:
+  name: TrackerLife
+  view: no
+  entities:
+    - device_tracker.life360_baska
+    - device_tracker.life360_majkeey
+    
+all_devices:
+  name: TrackerAll
+  view: no
+  entities:
+    - device_tracker.baska
+    - device_tracker.majko
+    - device_tracker.life360_baska
+    - device_tracker.life360_majkeey

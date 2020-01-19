@@ -1,0 +1,21 @@
+#PC STATE DROPDOWNS
+majkeeypcoptions:
+  name: PC - Majkeey - Power Options
+  options:
+    - Restart
+    - Shutdown
+    - None
+    - Sleep
+    - Hibernate
+  initial: None
+  icon: mdi:desktop-tower
+baskapcoptions:
+  name: PC - Baska - Power Options
+  options:
+    - Restart
+    - Shutdown
+    - None
+    - Sleep
+    - Hibernate
+  initial: None
+  icon: mdi:desktop-tower

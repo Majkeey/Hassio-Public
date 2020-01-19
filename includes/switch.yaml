@@ -1,0 +1,13 @@
+#PC WAKE ON LAN SWITCHES
+- platform: wake_on_lan
+  name: PC - Baska
+  mac: !secret baska_pc_mac
+  host: 192.168.31.218
+  turn_off:
+    service: shell_command.shutdown_z850
+- platform: wake_on_lan
+  name: PC - Majkeey
+  mac: !secret majkeey_pc_mac
+  host: 192.168.31.19
+  turn_off:
+    service: shell_command.shutdown_z800

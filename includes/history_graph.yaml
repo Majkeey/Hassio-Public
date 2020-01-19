@@ -1,0 +1,43 @@
+gr1:
+  name: Humidity Graph
+  entities:
+    - sensor.humidity_livingroom
+    - sensor.humidity_office
+    - sensor.humidity_guestroom
+    - sensor.humidity_bedroom
+    - sensor.humidity_techroom
+    - sensor.humidity_bathroom
+  hours_to_show: 120
+gr2:
+  name: Temperature Graph
+  entities:
+    - sensor.temperature_bedroom
+    - sensor.temperature_office
+    - sensor.temperature_guestroom
+    - sensor.temperature_livingroom
+    - sensor.temperature_techroom
+    - sensor.temperature_bathroom
+  hours_to_show: 120
+gr3:
+  name: Windows
+  entities:
+    - binary_sensor.door_window_sensor_kitchen1
+    - binary_sensor.door_window_sensor_kitchen2
+    - binary_sensor.door_window_sensor_office
+    - binary_sensor.door_window_sensor_bathroom
+    - binary_sensor.door_window_sensor_guestroom
+    - binary_sensor.door_window_sensor_techroom
+    - binary_sensor.door_window_sensor_bedroom1
+    - binary_sensor.door_window_sensor_bedroom2
+    - binary_sensor.door_window_sensor_entry
+    - binary_sensor.door_window_sensor_livingroom
+  hours_to_show: 120
+  refresh: 60
+gr4:
+  name: Weather Graph
+  entities:
+    - sensor.weather_temperature
+    - sensor.weather_pressure
+    - sensor.weather_wind_speed
+  hours_to_show: 120
+ 

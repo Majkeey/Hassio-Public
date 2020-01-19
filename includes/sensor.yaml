@@ -1,0 +1,61 @@
+#SSL CERTIFICATES
+- platform: cert_expiry
+  host: majkeey.duckdns.org
+
+#CPU
+- platform: systemmonitor
+  resources:
+    - type: disk_use_percent
+      arg: /home
+    - type: memory_free
+    - type: memory_use_percent
+    - type: processor_use
+
+- platform: command_line
+  name: CPU Temperature
+  command: "cat /sys/class/thermal/thermal_zone0/temp"
+  unit_of_measurement: "C"
+  value_template: '{{ value | multiply(0.001) | round(1) }}'
+
+#WEATHER
+- platform: yr
+  name: Weather
+  monitored_conditions:
+    - symbol
+    - temperature
+    - humidity
+    - fog
+    - pressure
+    - precipitation
+    - windSpeed
+    - windDirection
+    - cloudiness
+
+- platform: moon
+  
+#FLOORPLAN
+- platform: command_line
+  name: Time
+  command: date +'%H:%M'
+- platform: command_line
+  name: Day of Week
+  command: date +'%A'
+- platform: command_line
+  name: Month
+  command: date +'%B'
+- platform: command_line
+  name: Day
+  command: date +'%d'
+  
+- platform: template
+  sensors:
+    average_home_temp:
+      friendly_name: 'Average Home Temperature'
+      unit_of_measurement: '°C'
+      value_template: >-
+        {{ ((float(states.sensor.temperature_office.state) + float(states.sensor.temperature_livingroom.state) + float(states.sensor.temperature_guestroom.state) + float(states.sensor.temperature_bedroom.state)) / 4) | round(0) }}
+    average_home_humid:
+      friendly_name: 'Average Home Humidity'
+      unit_of_measurement: '°%'
+      value_template: >-
+        {{ ((float(states.sensor.humidity_office.state) + float(states.sensor.humidity_livingroom.state) + float(states.sensor.humidity_guestroom.state) + float(states.sensor.humidity_bedroom.state)) / 4) | round(0) }}

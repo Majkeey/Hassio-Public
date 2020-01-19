@@ -1,0 +1,15 @@
+sleep_majkeey:
+  name: Sleep Majkeey
+  icon: mdi:sleep
+sleep_baska:
+  name: Sleep Baska
+  icon: mdi:sleep
+home_majkeey:
+  name: Home Majkeey
+  icon: mdi:home
+home_baska:
+  name: Home Baska
+  icon: mdi:home
+home_guest:
+  name: Home Guest
+  icon: mdi:home
