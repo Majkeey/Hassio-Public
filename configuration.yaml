@@ -1,0 +1,107 @@
+homeassistant:
+  name: Home
+  latitude: !secret ha_latitude
+  longitude: !secret ha_longitude
+  elevation: 205
+  unit_system: metric
+  time_zone: Europe/Bratislava
+  customize: !include includes/customize.yaml
+  auth_providers: !include includes/auth_providers.yaml
+
+breaking_changes:
+cloud:  
+config:
+conversation:
+discovery:
+history:
+logbook:
+map:
+mobile_app:
+shopping_list:
+sun:
+system_health:
+updater:
+wake_on_lan:
+
+#INCLUDES
+automation: !include includes/automations.yaml
+frontend: !include includes/frontend.yaml
+garbage_collection: !include includes/garbage_collection.yaml
+group: !include includes/groups.yaml
+history_graph: !include includes/history_graph.yaml
+input_boolean: !include includes/input_boolean.yaml
+input_select: !include includes/input_select.yaml
+person: !include includes/person.yaml
+rest_command: !include includes/rest_command.yaml
+script: !include includes/scripts.yaml
+sensor: !include includes/sensor.yaml
+shell_command: !include includes/shell_command.yaml
+switch: !include includes/switch.yaml
+
+#SHORT CODES
+binary_sensor:
+  - platform: ping
+    host: 192.168.31.7
+    scan_interval: 15
+    name: tv
+
+device_tracker:
+  - platform: nmap_tracker
+    hosts:
+      - 192.168.31.204
+      - 192.168.31.89
+
+http:
+  base_url: !secret http_url
+  ssl_certificate: /ssl/fullchain.pem
+  ssl_key: /ssl/privkey.pem
+  
+influxdb:
+  host: a0d7b954-influxdb
+  port: 8086
+  database: homeassistant
+  username: homeassistant
+  password: !secret indb_password
+  max_retries: 3
+  default_measurement: state
+    
+lovelace:
+  mode: yaml
+
+notify:
+  - name: html5
+    platform: html5
+    vapid_pub_key: !secret vapid_pub_key
+    vapid_prv_key: !secret vapid_prv_key
+    vapid_email: !secret vapid_email
+  
+panel_custom:
+  - name: floorplan
+    sidebar_title: Floorplan
+    sidebar_icon: mdi:home
+    url_path: floorplan
+    config: !include includes/floorplan.yaml
+
+tts:
+  - platform: google_translate
+  
+xiaomi_aqara:
+  discovery_retry: 5
+  gateways:
+    - mac: !secret aquara_mac
+      key: !secret aquara_key
+    - mac: !secret aquara_mac2
+      key: !secret aquara_key2  
+
+weather:
+  - platform: darksky
+    api_key: !secret darksky_api_key
+    mode: daily
+
+zone:
+  - name: Home
+    latitude: !secret home_latitude
+    longitude: !secret home_longitude
+    radius: 150
+    elevation: !secret home_elevation  
+    icon: mdi:account-multiple
