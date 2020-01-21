@@ -8,7 +8,6 @@ homeassistant:
   customize: !include includes/customize.yaml
   auth_providers: !include includes/auth_providers.yaml
 
-breaking_changes:
 cloud:  
 config:
 conversation:
@@ -25,7 +24,6 @@ wake_on_lan:
 
 #INCLUDES
 automation: !include includes/automations.yaml
-frontend: !include includes/frontend.yaml
 garbage_collection: !include includes/garbage_collection.yaml
 group: !include includes/groups.yaml
 history_graph: !include includes/history_graph.yaml
@@ -50,6 +48,10 @@ device_tracker:
     hosts:
       - 192.168.31.204
       - 192.168.31.89
+
+frontend:
+  javascript_version: latest
+  themes: !include_dir_named includes/themes/
 
 http:
   base_url: !secret http_url
