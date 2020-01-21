@@ -64,7 +64,7 @@ light.yeelight_color1_34ce00900f3e:
   friendly_name: Light - Guest Room
   icon: mdi:lightbulb-outline
 light.yeelight_color1_7c49eb12c687:
-  friendly_name: Light - Outside
+  friendly_name: Light - Entry Door
   icon: mdi:lightbulb-outline
 
 
